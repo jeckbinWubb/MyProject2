@@ -9,6 +9,31 @@ public class UserVo {
     private Date birthday;
     private String certitype;
     private String certicode;
+    public static final boolean flag = true;
+
+    public UserVo(String id, String name, String gender, Date birthday, String certitype, String certicode) {
+        this.id = id;
+        this.name = name;
+        this.gender = gender;
+        this.birthday = birthday;
+        this.certitype = certitype;
+        this.certicode = certicode;
+    }
+
+    @Override
+    public String toString() {
+        return "UserVo{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", birthday=" + birthday +
+                ", certitype='" + certitype + '\'' +
+                ", certicode='" + certicode + '\'' +
+                '}';
+    }
+
+    public UserVo() {
+    }
 
     public String getId() {
         return id;
