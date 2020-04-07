@@ -1,0 +1,10 @@
+org/techsys/test/controller/UserController.class
+org/techsys/test/service/UserServiceImpl.class
+org/techsys/test/SpringApplicationMain.class
+org/techsys/test/utils/JedisUtils.class
+org/techsys/test/dao/UserDAO.class
+org/techsys/test/model/UserVo.class
+org/reids/tools/utils/RedisConfig.class
+org/techsys/test/service/UserService.class
+org/reids/tools/utils/RedisToolsUtils.class
+com/test/practise/TestReflectDemon.class

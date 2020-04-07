@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="devoral">
-  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.15">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.17">
     <root id="1">
       <ServerVersion>11.2.0.1.0</ServerVersion>
     </root>
@@ -68,7 +68,6 @@
       <ObjectId>1</ObjectId>
       <CreatedTimestamp>2010-03-30.18:07:50</CreatedTimestamp>
       <ModifiedTimestamp>2019-07-09.06:42:31</ModifiedTimestamp>
-      <IntrospectionTimestamp>2019-07-15.02:32:31</IntrospectionTimestamp>
     </schema>
     <schema id="23" parent="1" name="SCOTT">
       <ObjectId>84</ObjectId>
@@ -95,7 +94,6 @@
       <IntrospectionTimestamp>2019-07-15.02:55:51</IntrospectionTimestamp>
       <CommentsHash>20056161779984</CommentsHash>
       <Current>1</Current>
-      <Visible>1</Visible>
     </schema>
     <schema id="30" parent="1" name="WMSYS">
       <ObjectId>32</ObjectId>
